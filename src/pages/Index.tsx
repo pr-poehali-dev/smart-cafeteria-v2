@@ -42,14 +42,14 @@ const weekMenu: DayMenu[] = [
       },
       {
         id: 2,
-        name: 'Овощной суп',
-        description: 'Легкий овощной суп с зеленью и сметаной',
-        category: 'Суп',
-        ingredients: ['Картофель', 'Морковь', 'Капуста', 'Зелень', 'Сметана'],
-        allergens: ['Лактоза'],
-        calories: 150,
-        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf061bec-8b33-448d-8c92-d92a89f108f1.jpg',
-        price: 120
+        name: 'Шоколадный брауни',
+        description: 'Нежный шоколадный брауни с орехами',
+        category: 'Десерт',
+        ingredients: ['Шоколад', 'Яйца', 'Мука', 'Грецкие орехи', 'Сахар'],
+        allergens: ['Глютен', 'Яйца', 'Орехи'],
+        calories: 380,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/2bc61d80-f693-4e5e-a26e-e928597422aa.jpg',
+        price: 90
       },
       {
         id: 3,
