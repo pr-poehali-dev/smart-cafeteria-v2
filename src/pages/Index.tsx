@@ -78,6 +78,145 @@ const weekMenu: DayMenu[] = [
         calories: 380,
         image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf88dacd-7402-4051-9979-31f538617190.jpg',
         price: 190
+      },
+      {
+        id: 5,
+        name: 'Борщ с говядиной',
+        description: 'Традиционный борщ с мясом говядины и сметаной',
+        category: 'Суп',
+        ingredients: ['Говядина', 'Свекла', 'Капуста', 'Картофель', 'Сметана'],
+        allergens: ['Лактоза'],
+        calories: 280,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf061bec-8b33-448d-8c92-d92a89f108f1.jpg',
+        price: 140
+      },
+      {
+        id: 6,
+        name: 'Гречка с грибами',
+        description: 'Гречневая каша с тушеными грибами и луком',
+        category: 'Гарнир',
+        ingredients: ['Гречка', 'Грибы', 'Лук', 'Морковь', 'Растительное масло'],
+        allergens: [],
+        calories: 240,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/2bc61d80-f693-4e5e-a26e-e928597422aa.jpg',
+        price: 100
+      }
+    ]
+  },
+  {
+    day: 'Среда',
+    date: '20 декабря',
+    dishes: [
+      {
+        id: 7,
+        name: 'Куриный суп с лапшой',
+        description: 'Домашний куриный суп с яичной лапшой',
+        category: 'Суп',
+        ingredients: ['Курица', 'Лапша', 'Морковь', 'Лук', 'Зелень'],
+        allergens: ['Глютен', 'Яйца'],
+        calories: 200,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf061bec-8b33-448d-8c92-d92a89f108f1.jpg',
+        price: 130
+      },
+      {
+        id: 8,
+        name: 'Тефтели с рисом',
+        description: 'Сочные мясные тефтели с отварным рисом',
+        category: 'Основное блюдо',
+        ingredients: ['Говядина', 'Свинина', 'Рис', 'Лук', 'Томатный соус'],
+        allergens: [],
+        calories: 450,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf88dacd-7402-4051-9979-31f538617190.jpg',
+        price: 170
+      },
+      {
+        id: 9,
+        name: 'Салат Цезарь',
+        description: 'Классический салат с курицей, сыром и соусом',
+        category: 'Салат',
+        ingredients: ['Курица', 'Салат', 'Пармезан', 'Сухари', 'Соус Цезарь'],
+        allergens: ['Глютен', 'Лактоза', 'Яйца'],
+        calories: 310,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/2bc61d80-f693-4e5e-a26e-e928597422aa.jpg',
+        price: 150
+      }
+    ]
+  },
+  {
+    day: 'Четверг',
+    date: '21 декабря',
+    dishes: [
+      {
+        id: 10,
+        name: 'Запеченная индейка',
+        description: 'Сочная индейка с овощами и травами',
+        category: 'Основное блюдо',
+        ingredients: ['Индейка', 'Картофель', 'Кабачок', 'Розмарин', 'Чеснок'],
+        allergens: [],
+        calories: 340,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf88dacd-7402-4051-9979-31f538617190.jpg',
+        price: 195
+      },
+      {
+        id: 11,
+        name: 'Грибной крем-суп',
+        description: 'Нежный крем-суп из шампиньонов со сливками',
+        category: 'Суп',
+        ingredients: ['Шампиньоны', 'Сливки', 'Лук', 'Картофель', 'Специи'],
+        allergens: ['Лактоза'],
+        calories: 220,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf061bec-8b33-448d-8c92-d92a89f108f1.jpg',
+        price: 145
+      },
+      {
+        id: 12,
+        name: 'Овощное рагу',
+        description: 'Ассорти из тушеных сезонных овощей',
+        category: 'Гарнир',
+        ingredients: ['Баклажаны', 'Перец', 'Помидоры', 'Кабачки', 'Лук'],
+        allergens: [],
+        calories: 180,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/2bc61d80-f693-4e5e-a26e-e928597422aa.jpg',
+        price: 110
+      }
+    ]
+  },
+  {
+    day: 'Пятница',
+    date: '22 декабря',
+    dishes: [
+      {
+        id: 13,
+        name: 'Свиная отбивная',
+        description: 'Сочная свиная отбивная с картофелем фри',
+        category: 'Основное блюдо',
+        ingredients: ['Свинина', 'Картофель', 'Яйцо', 'Панировочные сухари', 'Масло'],
+        allergens: ['Глютен', 'Яйца'],
+        calories: 520,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf88dacd-7402-4051-9979-31f538617190.jpg',
+        price: 200
+      },
+      {
+        id: 14,
+        name: 'Щи с капустой',
+        description: 'Традиционные русские щи со свежей капустой',
+        category: 'Суп',
+        ingredients: ['Капуста', 'Картофель', 'Морковь', 'Говядина', 'Томатная паста'],
+        allergens: [],
+        calories: 190,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/cf061bec-8b33-448d-8c92-d92a89f108f1.jpg',
+        price: 125
+      },
+      {
+        id: 15,
+        name: 'Картофельное пюре с котлетой',
+        description: 'Нежное пюре с домашней котлетой',
+        category: 'Основное блюдо',
+        ingredients: ['Говядина', 'Картофель', 'Молоко', 'Сливочное масло', 'Лук'],
+        allergens: ['Лактоза'],
+        calories: 480,
+        image: 'https://cdn.poehali.dev/projects/b978b5f6-6681-42ac-a5a5-4da65a8a7afb/files/2bc61d80-f693-4e5e-a26e-e928597422aa.jpg',
+        price: 175
       }
     ]
   }
